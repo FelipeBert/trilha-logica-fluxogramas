@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0" version="25.0.3">
+  <diagram name="Página-1" id="JyxrwI8RcxhQtSHQMrXz">
+    <mxGraphModel dx="1393" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vtrs920q6xv00LjktCQs-1" value="INICIO" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="358" y="70" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vtrs920q6xv00LjktCQs-2" value="FIM" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="354" y="930" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vtrs920q6xv00LjktCQs-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vtrs920q6xv00LjktCQs-4" target="vtrs920q6xv00LjktCQs-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vtrs920q6xv00LjktCQs-4" value="SALARIOBASE" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="358" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vtrs920q6xv00LjktCQs-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vtrs920q6xv00LjktCQs-5" target="vtrs920q6xv00LjktCQs-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vtrs920q6xv00LjktCQs-5" value="GRATIFICACAO = SALARIOBASE * 0.1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="282" y="260" width="251" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vtrs920q6xv00LjktCQs-6" value="SALARIOBRUTO = SALARIOBASE + GRATIFICACAO" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="253" y="340" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vtrs920q6xv00LjktCQs-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vtrs920q6xv00LjktCQs-7" target="vtrs920q6xv00LjktCQs-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vtrs920q6xv00LjktCQs-11" value="SIM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vtrs920q6xv00LjktCQs-10">
+          <mxGeometry x="0.3554" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vtrs920q6xv00LjktCQs-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vtrs920q6xv00LjktCQs-7" target="vtrs920q6xv00LjktCQs-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vtrs920q6xv00LjktCQs-13" value="NAO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vtrs920q6xv00LjktCQs-12">
+          <mxGeometry x="0.1376" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vtrs920q6xv00LjktCQs-7" value="SALARIOBRUTO &amp;gt; 1200" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="333" y="440" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vtrs920q6xv00LjktCQs-8" value="IR = SALARIOBRUTO * 20%" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="604" y="467.5" width="160" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="vtrs920q6xv00LjktCQs-9" value="IR = SALARIOBRUTO * 15%" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="64" y="467.5" width="160" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="vtrs920q6xv00LjktCQs-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vtrs920q6xv00LjktCQs-14" target="vtrs920q6xv00LjktCQs-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vtrs920q6xv00LjktCQs-14" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="384" y="650" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vtrs920q6xv00LjktCQs-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vtrs920q6xv00LjktCQs-8" target="vtrs920q6xv00LjktCQs-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="684" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vtrs920q6xv00LjktCQs-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vtrs920q6xv00LjktCQs-9" target="vtrs920q6xv00LjktCQs-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="144" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vtrs920q6xv00LjktCQs-17" value="SALARIOFINAL = SALARIOBRUTO - IR" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="289" y="730" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vtrs920q6xv00LjktCQs-18" value="SALARIOFINAL" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="354" y="820" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vtrs920q6xv00LjktCQs-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vtrs920q6xv00LjktCQs-18" target="vtrs920q6xv00LjktCQs-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vtrs920q6xv00LjktCQs-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vtrs920q6xv00LjktCQs-17" target="vtrs920q6xv00LjktCQs-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vtrs920q6xv00LjktCQs-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vtrs920q6xv00LjktCQs-6" target="vtrs920q6xv00LjktCQs-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vtrs920q6xv00LjktCQs-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vtrs920q6xv00LjktCQs-1" target="vtrs920q6xv00LjktCQs-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
